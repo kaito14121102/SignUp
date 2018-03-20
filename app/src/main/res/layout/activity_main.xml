@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/backgr"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Amazon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="Welcome to my shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="#5cd3b4"
+        android:hint="User name"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:textColor="#5cd3b4"
+        android:hint="Phone"
+        android:inputType="number"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:textColor="#5cd3b4"
+        android:hint="Password"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="40dp" />
+    <Button
+        android:background="#5cd3b4"
+        android:text="Create account"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</LinearLayout>
